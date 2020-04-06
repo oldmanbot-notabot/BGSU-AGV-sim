@@ -1,4 +1,11 @@
+%This program will simulate random walk in an infinite plane
+%with no obstacles. We need to implement boundaries, and then
+%obstacles.
 %These matrices store the path, final position, and end point
+%Each row of path stores a path taken for an experiment, up
+%to 100 steps
+%Position has 3 columns, the first 2 are x and y, and the 3rd
+% column tells whether or not the AGV made it to the end point
 path=zeros(1000,100);
 position=zeros(1000,3);
 pend=[10,10];
